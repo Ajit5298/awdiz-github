@@ -1,0 +1,91 @@
+<html>  
+<head>
+  <title>
+  
+  </title>
+  <script>  
+function check()  
+{  
+/* The following statement is used to display a Confirm dialog box on a webpage with the statement which is enclosed in the brackets. */  
+confirm("Your JavaScript Code Run");   
+}  
+</script>  
+<style>  
+/* The following tag selector button use the different properties for the Button. */  
+button {  
+  background-color: red;  
+padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  color: white;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+/* The following tag selector hover use the opacity property for the Button which select button when you mouse over it. */  
+button:hover {  
+opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+<!-- The following statement use the Button type which is used to call a function of JavaScript when this button is clicked. -->  
+<button type="button" onclick="check()"> Click Me for running a JavaScript Code </button>  
+  
+</form>  
+</head>
+<body>  
+<h2>Input "image" type.</h2>  
+<p>We can create an image as submit button</p>  
+  <form>  
+    <label>User id:</label><br>  
+     <input type="text" name="name"><br><br>  
+     <input type="image" alt="Submit" src="login.png"  width="100px">  
+  </form>  
+  <form>  
+    Select Start and End Date: <br><br>  
+      <input type="date" name="Startdate"> Start date:<br><br>  
+      <input type="date" name="Enddate"> End date:<br><br>  
+     <input type="submit">  
+</form> 
+<form>  
+    <label>  
+      Select the meeting schedule: <br><br>  
+      Select date & time: <input type="datetime-local" name="meetingdate"> <br><br>  
+    </label>  
+      <input type="submit">  
+</form>
+<form>  
+         <label><b>Enter your Email-address</b></label>  
+        <input type="email" name="email" required>  
+        <input type="submit">  
+         <p><strong>Note:</strong>User can also enter multiple email addresses separating by comma or whitespace as following: </p>  
+         <label><b>Enter multiple Email-addresses</b></label>  
+         <input type="email" name="email"  multiple>  
+        <input type="submit">  
+</form>     
+<form action="action.html" method="post">  >  
+    <label>Enter your Birth Month-year: </label>  
+    <input type="month" name="newMonth">  
+    <input type="submit">  
+</form>  
+<form>  
+    <label>Enter your website URL: </label>  
+    <input type="url" name="website" placeholder="http://example.com"><br>  
+    <input type="submit" value="send data">  
+</form>  
+<form>  
+      <label><b>Enter your Telephone Number(in format of xxx-xxx-xxxx):</b></label>  
+      <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  
+      <input type="submit"><br><br>  
+   </form>
+  <form action="gmail.html" method="post">  
+<label>User Name:</label><br>  
+<input type="text" name="name"><br><br>  
+<label>User Password</label><br>  
+<input type="password" name="pass"><br><br>  
+ <input type="submit">  
+   </form>  
+ </body>  
+</html>  

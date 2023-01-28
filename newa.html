@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+Include JavaScript in head tag 
+</title>
+
+<script>
+function check()
+{
+/* The following statement is used to display a Confirm dialog box on a webpage with the statement which is enclosed in the brackets. */
+confirm("Your JavaScript Code Run"); 
+}
+</script>
+<style>
+/* The following tag selector button use the different properties for the Button. */
+button {
+  background-color: red;
+padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  opacity: 0.9;
+}
+/* The following tag selector hover use the opacity property for the Button which select button when you mouse over it. */
+button:hover {
+opacity: 1;
+}
+</style>
+</head>
+<body>
+<form>
+<!-- The following statement use the Button type which is used to call a function of JavaScript when this button is clicked. -->
+<button type="button" onclick="check()"> Click Me for running a JavaScript Code </button>
+
+</form>
+</body>
+</html>
+
+ 
