@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e065c3aa9c.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        #fullpage {
+            width: 100%;
+        }
+
+        #intro-section {
+            height: 500px;
+            background-image: url(https://th.bing.com/th/id/OIP.xyRgzVFFnX-j5WqWZdNYTQHaEK?pid=ImgDet&rs=1);
+            width: 100%;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            height: 70px;
+        }
+
+        #navbarleft {
+
+            width: 48%;
+            display: flex;
+            justify-content: left;
+
+        }
+
+        #navbarleft h1 {
+            padding: 13px;
+
+        }
+
+        #navbarleft p {
+            padding: 25px;
+        }
+
+
+        #navbarright {
+
+            width: 25%;
+            display: flex;
+            justify-content: right;
+            padding: 14px;
+
+        }
+
+        #navbarright>div:nth-child(1) {
+            background-color: white;
+            height: 40px;
+            width: 11%;
+            color: gray;
+            border-radius: 20px;
+            padding: 15px;
+        }
+
+        #navbarright>div:nth-child(2) {
+            width: 35%;
+            margin-left: 3%;
+        }
+
+        #navbarright>div:nth-child(1) i {
+            padding: 0px;
+        }
+
+        #navbarright button {
+            border: 1px solid white;
+            border-radius: 20px;
+            background-color: white;
+            font-size: 12px;
+            height: 30px;
+            width: 100%;
+            cursor: pointer;
+            padding: 8px;
+
+        }
+        #myinfo
+        {
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+        #myinfo > div 
+        {
+            border: 1px solid white;
+            width: 35%;
+            height: 350px;
+            
+        }
+       
+        
+        #myinfoleftside > div:nth-child(1)
+        {
+            display:flex;
+            margin-top: 100px;
+            margin-bottom: 20px;
+           
+
+             
+            
+        }
+        
+
+        #myinfoleftside > div:nth-child(1)> div:nth-child(1)
+        {
+            width: 80px;
+            height: 80px;
+            border-radius: 40px;
+            background-color: white;
+            margin-right:20px ;
+        
+        }
+        #myinfoleftside > div:nth-child(1)> div:nth-child(2) p
+        {
+            padding: 15px;
+            font-size: 28px;
+            font-weight: 800 ;
+
+        }
+        #myinfoleftside >  div:nth-child(2) h2
+        {
+            padding: 11px
+            color: goldenrod;
+            
+
+        }
+        #myinfoleftside > div:nth-child(1)> div:nth-child(2)
+        {
+            width: 200px;
+            height: 60px;
+            border-radius: 30px;
+            background-color: white;
+          
+        
+        }
+        #myinfoleftside > div:nth-child(2)
+        {
+            background-color: white;
+            width: 480px;
+            border-radius:25px ;
+            height: 50px;
+            margin-bottom: 20px;
+
+        }
+        #myinfoleftside > div:nth-child(3) h4
+        {
+            padding: 5px;
+            margin-left: 4px;
+            color: white;
+
+        }
+        #myinfoleftside > div:nth-child(3)
+        {
+            background-color: teal;
+            width: 100px;
+            border-radius:15px ;
+            height: 30px;
+
+        }
+        #myinforightside > div
+        {
+            width: 250px;
+            height:250px;
+            border:1px solid gainsboro;
+            border-radius:125px ;
+            background-color: white;
+            margin-top: 100px;
+            margin-left:220px;
+
+
+        
+
+        }
+        #mystory
+        {
+           
+            display: flex;
+            height: 400px;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        #mystory >div
+        {
+           
+            width: 40%;
+            height: 75%;
+            margin-top: 50px;
+
+        }
+        #mystoryright >div:nth-child(1)
+        {
+            height: 45%;
+            background-color: #14b78a;
+            border-radius: 10px;
+            display: flex;
+            justify-content: right;
+        }
+        #mystoryright > div h2
+        {
+            color: white;
+            font-size: 34px;
+            margin-top: 45px;
+            margin-right: 20px;
+            
+        }
+        #mystorypic
+        {
+           background-color: white; 
+           height: 100px;
+           width: 100px;
+           border-radius: 50px;
+           padding:40px ;
+           margin-right: 30px;
+        }
+        #mystoryleft > img
+        {
+            height:100%;
+            width: 100%;
+            margin: auto;
+            border-radius: 18px;
+        }
+        #mystoryright >div :nth-child(2) p , h1
+        {
+            margin-top: 20px;
+
+        }
+        #mystoryright >div :nth-child(2) img
+        {
+            height:100px;
+            width: 100px;
+            margin: auto;
+            border-radius: 50%;
+           
+        }
+        #info
+        {
+            width:100% ;
+            height: 500px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+           
+
+        }
+        #info > div 
+        {
+            width: 40%;
+            border: solid gray;
+            height: 250px;
+            margin-top: 125px;  
+        }
+        #infoleft
+        {
+            margin-right:5% ;
+            border:1px solid darkgreen;
+            border-radius: 10px;
+            
+        }
+        #infoleft > table
+        {
+            border: solid  1px darkgray;
+        }
+        infoleft > div:m\nth*()
+        
+
+       
+    </style>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div id="intro-section">
+            <div id="navbar">
+                <div id="navbarleft">
+                    <div>
+                        <h1>FIRST</h1>
+                    </div>
+                    <div>
+                        <p>Home</p>
+                    </div>
+                    <div>
+                        <p>About</p>
+                    </div>
+                    <div>
+                        <p>Services</p>
+                    </div>
+                    <div>
+                        <p>Project</p>
+                    </div>
+                    <div>
+                        <p>Contact</p>
+                    </div>
+
+                </div>
+                <div id="navbarright">
+                    <div>
+                        <p><i class="fa-solid fa-phone-volume"></i></p>
+                    </div>
+                    <div>
+                        <button>120-240</button>
+                    </div>
+                </div>
+            </div>
+            <div id="myinfo">
+                <div id="myinfoleftside">
+                    <div>
+                        <div><img /></div>
+                        <div>
+                            <p>Hello Friends</p>
+                        </div>
+                    </div>
+                    <div><h2>i'm available for freelance work</h2></div>
+                    <div><h4>let's begin</h4></div>
+                </div>
+                <div id="myinforightside">
+                    <div>
+                        <img src="" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <----mystory div end---->
+            <div id="mystory">
+                <div id="mystoryleft">
+                    <img src="https://4.bp.blogspot.com/-7y6JZHHiINc/WlD0Kyz3rjI/AAAAAAAAlrs/Gd0-UDTo8e0Z3kji1fpq4krKT0mumJcNACLcBGAs/s1600/Virat-Kohli-Images-HD-3.jpg">
+
+                </div>
+
+                <div id="mystoryright">
+                    <div>
+                        <h2>My story</h2>
+                        <div id="mystorypic">
+                            <img src="https://3.bp.blogspot.com/-HoA4coI3rNY/Wr9FBXGnlUI/AAAAAAAABjo/YXYYgXUqQNYT0s5Ryo_kOeVrhdl4vOHpQCLcBGAs/s1600/virat-kohli-1.jpg" >
+                        </div>
+
+                    </div>
+                    <div>
+                        <h1>About</h1>
+                        <p>Virat Kohli is an Indian international cricketer and former captain of the Indian national team. Widely regarded as one of the greatest batsmen of all time, Kohli plays as a right-handed batsman for Royal Challengers Bangalore in the IPL and for Delhi in Indian domestic cricket. </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <----------------------s-------------->
+            <div id="info">
+                <div id="infoleft">
+                    <h1>information</h1>
+                    <table>
+                        <tbody>
+                            <tr>
+                            <td>Name</td>
+                            <td>virat </td>
+                        </tr>
+                        <tr>
+                            <td>birthdate</td>
+                            <td>18-2-1995 </td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td>viratk67@gmail.com </td>
+                        </tr>
+                        <tr>
+                            <td>Number</td>
+                            <td>8974773910 </td>
+                        </tr>
+                        
+                        </tbody>
+                    </table>
+
+                </div>
+
+
+                <div  id="inforight">
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            ----------------------------
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+    </div>
+
+</body>
+
+</html>
