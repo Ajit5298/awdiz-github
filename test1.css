@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1.1s;
+    background-size: cover;
+
+}
+.leftnavbar
+{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 90px;
+
+}
+.centernavbar
+{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+padding: 40px;
+
+}
+.rightnavbar
+{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 90px;
+}
+.navbar
+{
+    display: flex;
+    background-color: rgb(238, 238, 234);
+}
+.rightnavbartop
+{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 45px;
+    justify-content: space-around;
+    display: flex;
+}
+.rightnavbarbottom
+{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 45px;
+   
+}
+#serch
+{
+    width: 70%;
+    height: 30px;
+    border-radius:12px ;
+    margin: 5px 5px;
+}
+.footer {
+    text-transform: uppercase;
+    background-color: rgb(44, 65, 82);
+    box-sizing: border-box;
+    padding: 70px 70px;
+    margin-top: 7px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    border-top: gray;
+    text-align: justify;
+    
+}
+
+.row {
+    display: flex;
+   margin-top: 30px;
+    margin-left: 30px;
+    
+   
+}
+
+.footer-col {
+    width: 30%;
+    padding: 0 30px
+}
+
+.footer-col h4 {
+    font-size: 14px;
+    color: rgb(255,255,255);
+    margin-bottom: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-weight: bolder; */
+    position: relative;
+    /* margin-left: 38px; */
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-col ul li a {
+    font-size: 11px;
+  
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255,255,255);
+    display: block;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    padding-left: 8px;
+    text-decoration: underline;
+}
+
+.social-links a {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    line-height: 40px;
+    border-radius: 15%;
+    color: #222;
+    transition: all 0.5s ease;
+
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+#first-right {
+    height: 100%;
+    width: 25%;
+    /* font-size: 11px; */
+    color: rgb(104, 101, 101);
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: left;
+}
+
+.right>p {
+    font-family: HCoGothamSSmLight, Arial, Sans-Serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-left: 1px solid gray;
+    padding-left: 10px;
+    color: gray;
+}
+
+#bottom-footer{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(44, 65, 82);
+    justify-content: space-between;
+    display: flex;
+    
+} 
+#bottom-footer p{
+    color: white;
+}
+#main{
+    /* font-size: 14px; */
+
+    width: 40%;
+    margin-left: 110px;
+    margin-top: -5px;
+    
+    
+}
+
+#btm-left{
+    font-size: 14px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+#btm-right{
+    
+    margin-right: 110px;
+}
+#f-btns{
+    display: grid;
+    text-align: center;
+   margin-top: 18px;
+    height: 110px;
+    width: 55px;
+    margin-right: 45px;
+    grid-gap: 5px;
+
+}
+#foot-btn{
+  
+    background-color: #ffffff;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#foot-btn1{
+    background-color: #ffffff;
+    font-size: 35px;
+    height: 44px;
+    width: 44px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.bottom_icons {
+    display: flex;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 39%;
+    /* border: 3px solid #5a5a55; */
+}
+.exchange_icons {
+    /* border:1px solid red; */
+    width: 100%;
+    margin: auto;
+    margin-left: -270px;
+}
+.exchange_icons img {
+    width:20%;
+
+.swiper-wrapper > div :hover{
+    transition-duration: 0s ease;
+transform: scale(1.04);
+}
+.img:hover{
+    transition-duration: 0s ease;
+    transform: scale(1.04);
+}

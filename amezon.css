@@ -1,0 +1,199 @@
+*
+{
+  border:none;
+  padding: none;
+  margin: none;
+  width: 100%;
+
+}
+.navbar_main
+{
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  height: 50px;
+}
+.navbar1
+{
+  border: 1px solid black;
+  width: 10%;
+  height: 50px;
+}
+.navbar2
+{
+  border: 1px solid black;
+  width: 10%;
+  height: 50px;
+}
+.navbar_serch
+{
+  border: 1px solid black;
+  width: 40%;
+  height: 50px;
+}
+.navbar4
+{
+  border: 1px solid black;
+  width: 10%;
+  height: 50px;
+}
+
+.navbar5
+{
+  border: 1px solid black;
+  width: 10%;
+  height: 50px;
+}
+.navbar6
+{
+  border: 1px solid black;
+  width: 10%;
+  height: 50px;
+}
+.navbar7
+{
+  border: 1px solid black;
+  width: 10%;
+  height: 50px;
+}
+
+.navbar_2
+{
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  height: 40px;
+}
+
+.step1
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step2
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step3
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step4
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step5
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step6
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step7
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step8
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step9
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step10
+  {
+    border: 1px solid black;
+    width: 7%;
+    height: 40px;
+  }
+  .step11
+  {
+    border: 1px solid black;
+    width: 30%;
+    height: 40px;
+  }
+  .secondstage
+  {
+  display: flex;
+  margin-top: 250px;
+ justify-content: space-between;
+  
+  }
+  
+  .first_img
+  {
+    width: 100%;
+    height: auto;
+    
+  }
+  .section1
+  {
+    border: 1px solid red;
+    width: 23%;
+    height: 400px;
+    
+  }
+.box1
+{
+  display: flex;
+  border: 1px solid black;
+  
+  width: 100%;
+  height: 20px;
+}
+.boxheading
+{
+  width:100%;
+  height: 20px;
+}
+.box
+{
+  
+  border: 1px solid black;
+  width: 23%;
+  height: 500px;
+}
+
+.boxheading
+{
+  border: 1px solid black;
+  width: 90%;
+  height: 80px;
+  padding: 1px 15px;
+}
+.imgdiv1
+{
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+.womensimg
+{
+  margin: 0px 5px;
+  border-bottom: 0px;
+}
+
+.footwearimg
+{
+  margin: 0px 5px;
+}

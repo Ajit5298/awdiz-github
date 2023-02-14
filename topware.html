@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="topware.css" />
+    <script src="https://kit.fontawesome.com/e065c3aa9c.js" crossorigin="anonymous"></script>
+    <link rel="icon"
+        href="https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/b8/5c/b1/b85cb137-ce18-3cbb-a9f3-7dadb593c0e5/source/512x512bb.jpg">
+</head>
+
+<body>
+   
+  
+        <div id="parent">
+          <div id="child1">
+            <div class="categorybox">
+              <h2>Category :</h2>
+            </div>
+            <div id="category">
+              <ul>
+              <button onclick="defaul()"></button> Default<br><br>
+              <button onclick="shirt()"></button> Shirts<br><br>
+             <button onclick="Tshirt()"></button> T-shirt<br><br>
+             <button onclick="footware()"></button> Footware<br><br>
+             <button onclick="paint()"></button> Paint<br><br>
+             <button onclick="watch()"></button> Watch<br><br>
+             <button onclick="spectacle()"></button> Glasses<br><br>
+            </ul>
+            </div>
+          </div>
+          <div id="child2">
+            <div id="pronav">
+              <select id="sortPrice" onchange="handlePriceSort()">
+                <option value="">Sort by Price</option>
+                <option value="high">High to Low</option>
+                <option value="low">Low to High</option>
+              </select>
+              <h4><span id="count"></span> Items found</h4>
+            </div>
+            <h2 id="changeHead">Mens wear & Accessories</h2>
+            <div id="product"></div>
+          </div>
+        </div>
+
+
+</html>
